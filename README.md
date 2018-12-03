@@ -1,6 +1,10 @@
 # deep-learning-101
 Deep learning introduction repository
 
+## Introduction
+
+This rep contains all my work for this specialization. All the code base, quiz questions, screenshot, and images, are taken from, unless specified, [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning).
+
 ## Set Up
 
 **Use pip to install and update packages, if you dont have python, download it [here](https://pip.pypa.io/en/stable/installing/)!**
