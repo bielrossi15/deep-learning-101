@@ -13,7 +13,7 @@ Deep learning introduction repository
 
 ## DL repository for newbies, that will have
 
-- [text files](https://github.com/bielrossi15/deep-learning-101/tree/master/texts) #texts to understand DL maths and theory
+- [text files](https://github.com/bielrossi15/deep-learning-101/tree/master/texts) to understand DL maths and theory
 - [jupyter notebooks](https://github.com/bielrossi15/deep-learning-101/tree/master/jupyter) with examples of certain implementations
 - ANN, CNN, RNN
 
