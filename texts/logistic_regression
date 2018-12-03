@@ -50,8 +50,8 @@ if y = 0, L(y^, y) = -log(1 - y^) <- you want y^ to be as small, you want log (1
 
 <- Find w and b to minimize J(w, b), wich is a convex function ->
 
-<alpha = learning rate, control our step size 
-dw  = change at the parameter w>
+< alpha = learning rate, control our step size 
+dw  = change at the parameter w >
 
 <FOR J(w), a two dimensional plot>
 
