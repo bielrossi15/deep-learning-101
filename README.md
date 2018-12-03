@@ -5,12 +5,11 @@ Deep learning introduction repository
 
 **Use pip to install and update packages, if you dont have python, download it [here](https://pip.pypa.io/en/stable/installing/)!**
 
-- Python 3
+- Python 3 (i recomend Python 3 >=3.4)
 - Jupyter click [here](http://jupyter.org/install) to install and run our codes!
 - Numpy
-- TensorFlow
+- TensorFlow for python
 - Matplotlib
-- 
 
 ## DL repository for newbies, that will have
 
