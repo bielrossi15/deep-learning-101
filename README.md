@@ -1,14 +1,24 @@
 # deep-learning-101
 Deep learning introduction repository
 
-# Introdutory DL repository
+## Set Up
 
-### DL repository for newbies, that will have
+**Use pip to install and update packages, if you dont have python, download it [here](https://pip.pypa.io/en/stable/installing/)!**
 
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `txt files to understand DL maths and theory`
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `jupyter notebooks with examples of certain implementations`
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ANN, CNN, RNN`
+- Python 3
+- Jupyter click [here](http://jupyter.org/install) to install and run our codes!
+- Numpy
+- TensorFlow
+- Matplotlib
+- 
+
+## DL repository for newbies, that will have
+
+- txt files to understand DL maths and theory
+- jupyter notebooks with examples of certain implementations
+- ANN, CNN, RNN
 
 
-Deep learning from newbie to newbies, enjoy!
+
+**Deep learning from newbie to newbies, enjoy!**
 
