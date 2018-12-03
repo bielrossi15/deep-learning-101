@@ -1,0 +1,17 @@
+# VECTORIZATION
+
+' to compute non-vectorized wT * x '
+
+z = 0
+for i in range(n - x):
+	z += w[i] * x[i]
+z += b
+
+' vectorizing it '
+
+z = np.dot(w, x) + b
+
+GPU -> PARALLELIZATION INSTRUCTIONS SIMD (SINGLE INSTRUCTION MULTIPLE DATA)
+CPU -> SIMD, so using functions like np.dot(), you let numpy do the function without the for loop, taking better advantage of parallelism
+
+#SO, WHENEVER POSSIBLE, AVOID EXPLICIT FOR LOOPS
