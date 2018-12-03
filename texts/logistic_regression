@@ -64,6 +64,7 @@ dw  = change at the parameter w>
 **w := w - alpha * dJ(w, b)/dw**
 <and>
 **b := b - alpha * dJ(w, b)/db**
+**Its good to normalize your vector, because computes your gradient faster (vector/||vector||)**
 
 #COMPUTING GRADIENT DESCENT
 
