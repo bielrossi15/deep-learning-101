@@ -32,4 +32,22 @@ X = A[0] = matrix(n[0], m)
 A[l] = dA[l] = matrix(n[l], m)
 W[l] = dW[l] = matrix(n[l], n[l-1])
 b[l] = db[l] = matrix(n[l], 1)
+
+
+#PARAMETERS AND HYPERPARAMETERS
+
+<Parameters: W[1], b[1], etc
+
+ Hyperparameters: learning rate,    iterations, hidden layers, hidden units, activation function
+>
+
+**HYPERPARAMETERS = PARAMETERS THAT CONTROL W AND b, VALUES THAT DETERMINE VALUES OF W AND b**	
+
+
+
+
+
+
+
+
 	
