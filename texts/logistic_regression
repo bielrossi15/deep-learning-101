@@ -75,7 +75,7 @@ dw  = change at the parameter w >
 < so you do your backwards derivatives >
 
 < first, you need to compute derivatives of your loss/a >
-**da = dL/da = -(y/a) + (1-y)/(1 - a)**
+**da = dL/da = -((y/a) - (1-y)/(1 - a))**
 < after, you need to compute your derivative of your loss/z >
 **dz = dL/dz = dL/da * da/dz = (a - y)**
 < finally, you calculate your derivative of your loss/wi >
