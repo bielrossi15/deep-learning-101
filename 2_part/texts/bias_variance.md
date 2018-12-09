@@ -1,7 +1,7 @@
-#BIAS AND VARIANCE
+# BIAS AND VARIANCE
 
 
-##Explanation
+## Explanation
 
 **High bias (small variance)** -> Underfitting, high error percentage
 
@@ -9,7 +9,7 @@
 
 **"Just right"** -> Bias and variance balanced 
 
-##Resumes
+## Resumes
 
 **Train/Dev set error**
 ex0 - 1/11 -> High variance (over)
@@ -19,7 +19,7 @@ ex3 - 0.5/1 -> Low bias and variance
 
 
 
-##BASIC ML RECIPE
+## BASIC ML RECIPE
 
 **High bias?** -> check the training data performance (bigger network, train longer, different NN architecture, etc)
 
