@@ -14,7 +14,7 @@ z = np.dot(w, x) + b
 GPU -> PARALLELIZATION INSTRUCTIONS SIMD (SINGLE INSTRUCTION MULTIPLE DATA)
 CPU -> SIMD, so using functions like np.dot(), you let numpy do the function without the for loop, taking better advantage of parallelism
 
-#SO, WHENEVER POSSIBLE, AVOID EXPLICIT FOR LOOPS
+## SO, WHENEVER POSSIBLE, AVOID EXPLICIT FOR LOOPS
 
 x -> a[2] = y_hat
 x(1) -> a[2](1) = y_hat(1)

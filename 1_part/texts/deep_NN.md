@@ -25,7 +25,7 @@ X : Z[1] = W[1]x + b[1]
     A[L] = g[L](Z[l]) 
 
 
-#MATRIX DIMENSIONS
+# MATRIX DIMENSIONS
 
 Z[l] = dZ[l] = matrix(n[l], n[m])
 X = A[0] = matrix(n[0], m)
@@ -34,7 +34,7 @@ W[l] = dW[l] = matrix(n[l], n[l-1])
 b[l] = db[l] = matrix(n[l], 1)
 
 
-#PARAMETERS AND HYPERPARAMETERS
+# PARAMETERS AND HYPERPARAMETERS
 
 <Parameters: W[1], b[1], etc
 

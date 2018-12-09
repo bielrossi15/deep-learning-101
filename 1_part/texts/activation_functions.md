@@ -1,4 +1,4 @@
-#ACTIVATION FUNCTIONS
+# ACTIVATION FUNCTIONS
 
 **Sigmoid function is a activation function, but we can have others**
 

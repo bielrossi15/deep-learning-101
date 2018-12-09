@@ -1,4 +1,4 @@
-#COMPUTATION DERIVATIVE GRAPHS
+# COMPUTATION DERIVATIVE GRAPHS
 < You use a lot of chain rule >
 
 **J = 3v**

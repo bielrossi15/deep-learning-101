@@ -1,8 +1,8 @@
-#DATA
+# DATA
 
 
 
-##You divide your data into
+## You divide your data into
 
 **Training set** 
 < keep training >
@@ -15,7 +15,7 @@
 
 
 
-##Data dividing
+## Data dividing
 
 **before** 
 < 60/20/20 >
@@ -24,7 +24,7 @@
 < we use a much smaller percentage to dev and test, because we only need dev set to analyze wich model is better, and test is for only seeing how your algorithm is doing, so we use something like 98/1/1 or smaller percentages (ONLY FOR GREATER DATASETS) >
 
 
-##Mismatched train/test distribution
+## Mismatched train/test distribution
 
 **Training set** 
 < we can use something like cat pictures from webpages, better quality, more professional >

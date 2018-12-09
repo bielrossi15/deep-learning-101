@@ -45,13 +45,13 @@ a[1] =				= sigmoid(z[1])
 		|a[1]nodes| nodes x 1
 
 
-#COST FUNCTIONS
+# COST FUNCTIONS
 
 paramns: w[1] (n, n-1), b[1] (n, 1), w[2] (n, n-1), b[2] (n, 1)
 
 J(w[1], b[1], w[2], b[2]) = (1/m) Sum L(y_hat, y)
 
-#GRADIENT DESCENT
+# GRADIENT DESCENT
 
 Repeat {
   < compute predictions(y_hat(1), ..., m) >
@@ -68,7 +68,7 @@ Repeat {
 }
 
 
-#FORWARD PROP FUNCTIONS
+# FORWARD PROP FUNCTIONS
 
 Z[1] = W[1] dot X + b[1]
 A[1] = g(Z[1])
@@ -76,7 +76,7 @@ A[1] = g(Z[1])
 Z[2] = W[2] dot A[1] + b[2]
 A[2] = g(Z[2])
 
-#BACK PROP FUNCTIONS (FOR GRADIENT DESCENT)
+# BACK PROP FUNCTIONS (FOR GRADIENT DESCENT)
 
 **Second layer**
 < dZ[2] = A - Y

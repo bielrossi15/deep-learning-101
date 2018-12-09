@@ -1,4 +1,4 @@
-#BYNARY CLASSIFICATION (Y = 0 OR 1)
+# BYNARY CLASSIFICATION (Y = 0 OR 1)
 
 Given X, want Y
 
@@ -10,7 +10,7 @@ Output y^ = wTranspose x + b doesn't work, because this is a linear regression f
 
 **SO WE USE**
 
-#LINEAR REGRESSION MODEL
+## LINEAR REGRESSION MODEL
 
 **z = wTx + b**
 
@@ -27,7 +27,7 @@ if z -> -inf sig tends to 0
 
 **y^ = σ(z)** 
 
-#LINEAR REGRESSION LOSS FUNCTION (SINGLE TRAINING EXAMPLE)
+## LINEAR REGRESSION LOSS FUNCTION (SINGLE TRAINING EXAMPLE)
 
 **i = X vector column, your feature matrix**
 **yi^ = σ(wTxi + b)**
@@ -39,14 +39,14 @@ if y = 1, L(y^, y) = -log y^ <- you want y^ to be large, you want log y^ to be l
 
 if y = 0, L(y^, y) = -log(1 - y^) <- you want y^ to be as small, you want log (1-y^) to be large, so it needs to be as close as possible to 0 ->
 
-#LINEAR REGRESSION COST FUNCTION (ENTIRE TRAINING SET)
+## LINEAR REGRESSION COST FUNCTION (ENTIRE TRAINING SET)
 
 **J(w, b) = (1/m)Sum(L(yi^, yi)) =**
 **-(1/m) SUM (yi log yi^ + (1-yi) log(1 - yi^))**
  <- The average of your Loss function, so you need to find the parameters w and b to minimize your overall cost, meaning that yi^ must be as close as possible to your desired value (y being 1 or 0) ->
 
 
-#GRADIENT DESCENT
+## GRADIENT DESCENT
 
 <- Find w and b to minimize J(w, b), wich is a convex function ->
 
@@ -66,7 +66,7 @@ dw  = change at the parameter w >
 **b := b - alpha * dJ(w, b)/db**
 **Its good to normalize your vector, because computes your gradient faster (vector/||vector||)**
 
-#COMPUTING GRADIENT DESCENT
+## COMPUTING GRADIENT DESCENT
 
 < given x1 and x2 >
 **z = w1x1 + b**
@@ -86,7 +86,7 @@ dw  = change at the parameter w >
 **w1 = w1 - alpha * dw1**
 **b = b - alpha * db**
 
-#GENERAL CODE EXAMPLE 
+## GENERAL CODE EXAMPLE 
 
 <	dw = np.zeros((n - x), 0)
 	for i = 1 to m:
