@@ -18,8 +18,8 @@
 ## Dropout regularization
 - Creating a probability to delete nodes
 - keep_prop = probability of a node being kept
-- d3 = np.random.rand(a3.shape[0], a3.shape[1]) < keep_prop
-- a3 = np.multiply(a3, d3) #number by number multiplication
+- D3 = np.random.rand(a3.shape[0], a3.shape[1]) < keep_prop
+- a3 = np.multiply(a3, D3) #number by number multiplication
 - a3 /= keep_prob #to make the matrix a3 not change the expected value of z4 = w4 * a3 + b4
 - Ate test time, you dont use dropout
 - It will need to spread out the weights, so te squared norm will be reduced
