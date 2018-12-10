@@ -35,9 +35,9 @@ if z -> -inf sig tends to 0
 **Loss(y^, y) = - (y log y^ + (1-y) log(1 - y^))**
 < -we want it to be small as possible ->
 
-if y = 1, L(y^, y) = -log y^ <- you want y^ to be large, you want log y^ to be large, so it needs to be as close as possible to 1 ->
+- if y = 1, L(y^, y) = -log y^ <- you want y^ to be large, you want log y^ to be large, so it needs to be as close as possible to 1 ->
 
-if y = 0, L(y^, y) = -log(1 - y^) <- you want y^ to be as small, you want log (1-y^) to be large, so it needs to be as close as possible to 0 ->
+- if y = 0, L(y^, y) = -log(1 - y^) <- you want y^ to be as small, you want log (1-y^) to be large, so it needs to be as close as possible to 0 ->
 
 ## LINEAR REGRESSION COST FUNCTION (ENTIRE TRAINING SET)
 
@@ -48,12 +48,12 @@ if y = 0, L(y^, y) = -log(1 - y^) <- you want y^ to be as small, you want log (1
 
 ## GRADIENT DESCENT
 
-<- Find w and b to minimize J(w, b), wich is a convex function ->
+- Find w and b to minimize J(w, b), wich is a convex function 
 
-< alpha = learning rate, control our step size 
-dw  = change at the parameter w >
+- alpha = learning rate, control our step size 
+dw  = change at the parameter w 
 
-<FOR J(w), a two dimensional plot>
+FOR J(w), a two dimensional plot
 
 **Repeat { w := w - alpha * dJ(w)/dw }**
 <IN CODE>
@@ -68,27 +68,27 @@ dw  = change at the parameter w >
 
 ## COMPUTING GRADIENT DESCENT
 
-< given x1 and x2 >
+- given x1 and x2 >
 **z = w1x1 + b**
 -> **y^ = a = σ(z)** -> **L(a, y)**
 
 < so you do your backwards derivatives >
 
-< first, you need to compute derivatives of your loss/a >
+- first, you need to compute derivatives of your loss/a >
 **da = dL/da = -((y/a) - (1-y)/(1 - a))**
-< after, you need to compute your derivative of your loss/z >
+- after, you need to compute your derivative of your loss/z >
 **dz = dL/dz = dL/da * da/dz = (a - y)**
-< finally, you calculate your derivative of your loss/wi >
+- finally, you calculate your derivative of your loss/wi >
 **dL/dw1 = dw1 = x1 * dz and db = dz**
 
-< SO, ALL YOU NEED TO DO IS CALCULATE DZ = A - Y AND DW1 = X1 * DZ >
-< and your gradient descent updates are >
+- SO, ALL YOU NEED TO DO IS CALCULATE DZ = A - Y AND DW1 = X1 * DZ >
+ and your gradient descent updates are 
 **w1 = w1 - alpha * dw1**
 **b = b - alpha * db**
 
 ## GENERAL CODE EXAMPLE 
 
-<	dw = np.zeros((n - x), 0)
+	dw = np.zeros((n - x), 0)
 	for i = 1 to m:
 		zi = wT * xi + b
 		ai = σ(zi)
@@ -103,7 +103,7 @@ dw  = change at the parameter w >
 	 db /= m
 	 w := w - alpha * dw
 	 b = b - alpha * db 
->
+
 
 
 
